@@ -46,7 +46,7 @@ const Normal = ()=>{
    
     <body >
         <div >
-        <div style={{display: isOut===true ? "block": ""}} className="bg-blue-500 w-96 h-56 p-10 rounded-lg sm:ml-96 sm:mt-40 mt-10 hidden">
+        <div style={{display: isOut===true ? "block": ""}} className="bg-blue-500 w-96 h-56 p-10 rounded-lg sm:ml-96 ml-6 sm:mt-40 mt-10 hidden">
         <i onClick={handeOut} className="fa-solid fa-x text-white text-3xl rounded-full w-12 h-10 text-center bg- absolute sm:left-[710px] left-80 sm:top-[250px] top-32   "></i>
             <form >
             <input value={title} onChange={(e) => setTitle(e.target.value)} className="rounded-lg w-60 outline-none" type="text" placeholder=" Text hre" /><br />
